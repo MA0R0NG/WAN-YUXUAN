@@ -1,0 +1,91 @@
+body * {
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+body {
+  font-family: PingFangSC-Regular, Roboto, Helvetica Neue, Helvetica, Tahoma,
+    Arial, PingFang SC-Light, Microsoft YaHei;
+}
+input {
+  background-color: transparent;
+  border: 0;
+}
+button {
+  margin: 0;
+  padding: 0;
+  border: 1px solid transparent;
+  outline: none;
+  background-color: transparent;
+}
+
+button:active {
+  opacity: 0.6;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.justify-start {
+  display: flex;
+  justify-content: flex-start;
+}
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+.justify-end {
+  display: flex;
+  justify-content: flex-end;
+}
+.justify-evenly {
+  display: flex;
+  justify-content: space-evenly;
+}
+.justify-around {
+  display: flex;
+  justify-content: space-around;
+}
+.justify-between {
+  display: flex;
+  justify-content: space-between;
+}
+.align-start {
+  display: flex;
+  align-items: flex-start;
+}
+.align-center {
+  display: flex;
+  align-items: center;
+}
+.align-end {
+  display: flex;
+  align-items: flex-end;
+}
+
+.new-row a {
+  display: inline-block;
+  width: 160px;
+  margin-left: 20px;
+  text-align: center;
+  height: 100%;
+  line-height: 79px;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 22px;
+  font-family: SFCompactText-Semibold;
+  font-weight: 600;
+  text-decoration: none;
+}
+.new-row a.active {
+  
+  color: rgba(50, 111, 254, 1);
+  border-bottom: 5px solid rgba(50, 111, 254, 1);
+}
+.new-row a:hover {
+  color: rgba(50, 111, 254, 1);
+  border-bottom: 5px solid rgba(50, 111, 254, 1);
+}

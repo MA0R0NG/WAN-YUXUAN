@@ -1,0 +1,51 @@
+.top_box {
+  background-color: rgba(255, 255, 255, 1);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1920px;
+  height: 79px;
+  display: flex;
+  align-items: center;
+}
+.top_box > div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.top_box > div > .label_1 {
+  width: 40px;
+  height: 40px;
+  margin: 0 0 0 60px;
+}
+.top_box > div > .text_2 {
+  overflow-wrap: break-word;
+  color: rgba(50, 111, 254, 1);
+  font-size: 22px;
+  font-family: SFCompactText-Semibold;
+  font-weight: 600;
+  text-align: left;
+  white-space: nowrap;
+  margin: 0 0 0 10px;
+}
+.top_box a {
+  display: inline-block;
+  width: 160px;
+  margin-left: 20px;
+  text-align: center;
+  height: 100%;
+  line-height: 79px;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 22px;
+  font-family: SFCompactText-Semibold;
+  font-weight: 600;
+  text-decoration: none;
+}
+.top_box a.active {
+  color: rgba(50, 111, 254, 1);
+  border-bottom: 5px solid rgba(50, 111, 254, 1);
+}
+.top_box a:hover {
+  color: rgba(50, 111, 254, 1);
+  border-bottom: 5px solid rgba(50, 111, 254, 1);
+}
